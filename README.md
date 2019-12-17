@@ -38,7 +38,7 @@ sitemap.init({
     save_path:'sitemap3.xml'
 })
 
-sitemap.deleSitemap(context);
-sitemap.addSitemap(context);
-sitemap.deleAll()
+sitemap.deleSitemap(); 删除redis数据
+sitemap.addSitemap(); 添加redis新数据
+sitemap.deleAll() 清空redis所有数据
 ```
